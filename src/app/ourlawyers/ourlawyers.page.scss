@@ -1,0 +1,105 @@
+ion-content{
+    --ion-background-color: #f8f9fa !important;
+    
+}
+
+
+
+.product-slider{
+margin-top: 30px;
+margin-left: 0px;
+margin-right: 0px;
+padding-right: 50px;
+height: 100%;
+width: 100%;
+
+  p{
+    text-align: center;
+  }
+
+
+}
+.backgr{
+    background-image: url("/assets/funmi.png");
+    height: 400px; /* You must set a specified height */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+      margin: 20px;
+      border-radius: 15PX;
+      
+    opacity: 1;
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    ion-icon{
+        margin:20px;
+        font-size:25px;
+        color: #ffffff !important;
+    
+      }
+
+    .ion-icon2{
+    float: right;
+        color:#05386B !important;
+    }     
+
+
+      h1{
+        margin-left:20px;
+        line-height: 10px;
+        padding-left: 10%;
+        transform: translateY(-90PX);  
+        font-family: 'Balsamiq Sans', cursive;
+        color: #ffffff;
+      }
+
+      h2{
+        padding-left: 20px;
+        margin-left:20px;
+        font-family: 'Balsamiq Sans', cursive;
+        color: #05386B;
+        transform: translateY(-30PX); 
+      }
+    
+
+      p{
+        padding-left: 20px;
+        margin-left:20px;
+        font-family: cursive;
+        color: #000000;
+        transform: translateY(-30PX); 
+               
+      }
+
+      .specialities{
+            transform: translateY(-370px);
+            float: right;
+            margin-right: 30px;  
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    
+        div{
+              width: 50px;
+              height: 100px;
+              background-color: #ffffff;
+              height: 50px;
+              margin-bottom: 10px;  
+            border-radius: 10%;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            }
+
+            img{
+                padding: 10px;
+                
+            }
+
+      }
+
+      .position{
+
+      }

@@ -1,0 +1,152 @@
+ion-content{
+    --ion-background-color: #ffffff !important;
+    
+}  
+.parentsector{
+  margin-top: 40px;
+  display: flex;
+padding-left: 15px;
+padding-right: 15px;
+
+  width: 100%;
+}
+
+.child{
+
+
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f8f9fa;
+  height:45px;
+  width: 100px;
+  padding-top: 15px;
+  border-radius: 10px;
+
+    img{
+  
+      padding-left: 10px;
+      width: auto;
+      height: 15px;
+      justify-content: space-around;
+     
+    }
+
+    p{
+      padding-left: 5%;
+      padding-right: 10%;
+      transform: translateY(-8px);
+      font-size: 10px;
+      color: #05386B;
+        font-family: 'Balsamiq Sans', cursive;
+
+    }
+}
+
+
+
+.boxbackground{
+  padding-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px; margin-bottom: 10px;
+}
+
+
+
+h1{
+  color: #05386B;
+  text-align:left;
+  padding-top: 10px;
+  padding-left:20px;
+  padding-right: 20px;
+  font-size: 18px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.box1{
+    background-color: rgb(22, 22, 22) ;
+    height: 30%;
+   
+    padding-top: 20px;
+padding-left: 20px;
+padding-right: 20px;
+    text-align: center;
+    color: #ffffff;
+
+
+    h1{
+        color: rgb(255, 255, 255);
+        text-align:center;
+        padding-top: 10px;
+        padding-left:20px;
+        padding-right: 20px;
+        font-family: 'Balsamiq Sans', cursive;
+
+      }
+}
+
+
+.product-slider {
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  img {
+
+      width: 140px;
+      height: 120px;
+      margin-left: 10px;
+      margin-right: 10px;
+      object-fit: cover;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      margin-left: 0px;
+      margin-right: 0px;
+      background-color:  #394856;
+      box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px 0px;
+
+    }
+
+
+  }
+
+  .imgtext{
+display: flex;
+
+  } 
+
+  .imgtext >img {
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 5%;
+  }
+  .imgtext > p{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    
+    font-family: 'Balsamiq Sans', cursive;
+    transform: translateY(-10px);
+    color: #05386B;
+  }
+
+
+  
+  .lastpara{
+    padding-left: 20px;
+    margin-left:20px;
+    font-family: cursive;
+    color: #000000;
+     
+  }
+

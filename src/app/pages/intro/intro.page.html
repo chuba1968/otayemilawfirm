@@ -1,0 +1,47 @@
+
+<ion-header>
+
+</ion-header>
+
+<ion-content >
+
+  <div class="backgr" >
+
+    <ion-icon slot="icon-only" name="chevron-back" [routerLink]="['/tabs']" routerLinkActive="router-link-active"></ion-icon>
+
+
+
+</div>
+
+
+
+
+
+
+
+<div class="div2">
+  <h1>Welcome to OTAYEMI LAW OFFICE</h1>
+ <p>Please create an account</p>
+
+  <form (ngSubmit)="login()" [formGroup]="credentials"  class="ion-padding">
+    <ion-item class="ion-margin-bottom" >
+      <ion-input type="email" placeholder="E-mail" formControlName="email"></ion-input>
+
+      <ion-note slot="error" *ngIf="(email.dirty || email.touched) && email.errors">Email is invalid</ion-note>
+    </ion-item>
+
+    <ion-item class="ion-margin-bottom">
+      <ion-input type="password" placeholder="Password" formControlName="password"></ion-input>
+      <ion-note slot="error" *ngIf="(password.dirty || password.touched) && password.errors">Password needs to be 6 characters</ion-note>
+    </ion-item>
+
+
+      <ion-button type="button" expand="block" (click)="register()" class="button" class="button1">   <ion-icon name="add-circle-sharp" slot="start"></ion-icon>Signup</ion-button>
+
+  </form>
+
+
+
+</div>
+
+</ion-content>

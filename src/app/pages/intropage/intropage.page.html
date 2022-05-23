@@ -1,0 +1,47 @@
+
+<ion-header>
+
+</ion-header>
+
+<ion-content >
+
+
+
+  <div class="div1">
+  <img [defaultImage]="'https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921'" [lazyLoad]="'/assets/Mobile wireframe-cuate.svg'">
+
+    </div>
+
+
+
+
+<div class="div2">
+ <p>Login</p>
+
+  <form (ngSubmit)="login()" [formGroup]="credentials"  class="ion-padding">
+    <ion-item class="ion-margin-bottom" lines="none">
+      <ion-input type="email" placeholder="E-mail" formControlName="email"></ion-input>
+
+      <ion-note slot="error" *ngIf="(email.dirty || email.touched) && email.errors">Email is invalid</ion-note>
+    </ion-item>
+
+    <ion-item class="ion-margin-bottom" lines="none">
+      <ion-input type="password" placeholder="Password" formControlName="password"></ion-input>
+      <ion-note slot="error" *ngIf="(password.dirty || password.touched) && password.errors">Password needs to be 6 characters</ion-note>
+    </ion-item>
+
+    <ion-button type="submit" expand="block" class="button1">Login
+
+    </ion-button>
+
+
+
+  </form>
+
+
+  <p>Welcome to Edward E. Obomanu & Co</p>
+
+
+</div>
+
+</ion-content>

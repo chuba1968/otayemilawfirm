@@ -1,0 +1,112 @@
+
+<ion-content [fullscreen]="true">
+ <h1>We Fight for your Justice</h1>
+
+ <p class="parawefight">We are a team of dedicated lawyers with expertise in different fields of legal practice. As a result of each lawyer's expertise and zeal for law practice.</p>
+
+
+
+<ion-button fill="outline" [routerLink]="['/menu']" routerLinkActive="router-link-active">
+  Get Started
+  <ion-icon slot="end" name="arrow-forward"></ion-icon>
+</ion-button>
+
+  <div class="container">
+
+    <!-- Animated Searchbar
+
+    <div class="smallcontainer">
+       Animated Searchbar
+<ion-searchbar animated></ion-searchbar>
+
+
+
+            <div class="colum"> </div>
+
+    </div>
+  -->
+    <swiper [pagination]="true" class="product-slider" [slidesPerView]="2" [loop]="true"  effect="fade"  [spaceBetween]="5">
+
+
+      <ng-template swiperSlide>
+        <div class="box">
+        <img [defaultImage]="'https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921'" [lazyLoad]="'https://cdn.corporatefinanceinstitute.com/assets/antitrust-laws-1-1024x769.jpeg'">
+      <div class="imgtext"><p>Anti Trust Law<p></div>
+      </div>
+      </ng-template>
+
+
+      <ng-template swiperSlide>
+        <div class="box">
+        <img [defaultImage]="'https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921'" [lazyLoad]="'/assets/e8e06ff2fc035b6106681f210fcd68f1.jpg'">
+      <div class="imgtext"><p>Private Equity<p></div>
+      </div>
+      </ng-template>
+
+
+      <ng-template swiperSlide>
+        <div class="box">
+        <img [defaultImage]="'https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921'" [lazyLoad]="'/assets/download.jpg'">
+      <div class="imgtext"><p>Mergers <p></div>
+      </div>
+      </ng-template>
+
+
+      <ng-template swiperSlide>
+        <div class="box">
+        <img [defaultImage]="'https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921'" [lazyLoad]="'/assets/download.jpg'">
+      <div class="imgtext"><p>Media<p></div>
+      </div>
+      </ng-template>
+
+
+
+      <ng-template swiperSlide>
+        <div class="box">
+        <img [defaultImage]="'https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921'" [lazyLoad]="'/assets/download.jpg'">
+      <div class="imgtext"><p>Tax<p></div>
+      </div>
+      </ng-template>
+
+      
+      <ng-template swiperSlide>
+        <div class="box">
+        <img [defaultImage]="'https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921'" [lazyLoad]="'/assets/download.jpg'">
+      <div class="imgtext"><p>Banking<p></div>
+      </div>
+      </ng-template>
+    
+      <ng-template swiperSlide>
+        <div class="box">
+        <img [defaultImage]="'https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921'" [lazyLoad]="'/assets/download.jpg'">
+      <div class="imgtext"><p>Energy<p></div>
+      </div>
+      </ng-template>
+  
+    </swiper>
+    
+<div class="boxafterswiper">
+
+  <section class="component">
+
+  <blockquote class="callout quote EN">
+   Clients come to us for world class legal services delivered with high ethical standards. Clients can expect nothing but excellence from us.
+  </blockquote>
+  </section>
+</div>
+
+
+
+    </div>
+
+
+<!--
+
+
+
+  
+
+-->
+
+  </ion-content>
+

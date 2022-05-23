@@ -1,0 +1,7 @@
+{
+  "name": "edward-chambers",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
